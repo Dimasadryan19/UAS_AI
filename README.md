@@ -63,7 +63,7 @@ flowchart TD
 ```
 
 ### Visualisasi :
-[visualisasi](Screenshot%202025-06-07%20195848.png)
+![visualisasi](Screenshot%202025-06-07%20195848.png)
 
 ---
 
