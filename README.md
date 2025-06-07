@@ -62,6 +62,8 @@ flowchart TD
     E --> G[Prediksi Kemacetan & Rekomendasi Rute]
 ```
 
+### Visualisasi :
+
 ---
 
 ## 📈 4. Evaluasi Model
@@ -97,10 +99,8 @@ flowchart TD
 
 ## 👥 Tim Pengembang
 
-- AI Engineer: [Nama Anda]
-- Data Engineer: [Nama Anda]
-- Full Stack Developer: [Nama Anda]
-
+- I Nyoman Dimas Kresna Adryan (G1A023077)
+- Mohammad Irvan Ramadhansyah  (G1A023089)
 ---
 
 > "Dengan sistem ini, Kota Bengkulu dapat lebih responsif terhadap kondisi lalu lintas dan menjadi lebih cerdas dalam pengelolaan mobilitas."
