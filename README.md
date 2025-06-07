@@ -146,4 +146,4 @@ Model awal menggunakan pendekatan supervised learning. Namun, untuk masa depan:
 - Mohammad Irvan Ramadhansyah  (G1A023089)
 ---
 
-> "Dengan sistem ini, Kota Bengkulu dapat lebih responsif terhadap kondisi lalu lintas dan menjadi lebih cerdas dalam pengelolaan mobilitas."
+> "Dengan sistem ini, kota bengkulu menuju mobilitas yang lancar, cepat, dan cerdas."
