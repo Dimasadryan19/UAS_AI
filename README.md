@@ -113,19 +113,30 @@ flowchart TD
 
 ## 🚀 5. Pengembangan Lanjutan
 
-### Integrasi:
-- Sensor real-time (IoT)
-- CCTV kota
-- API cuaca BMKG
+Seiring dengan implementasi awal sistem prediksi kemacetan ini, terdapat berbagai peluang pengembangan lanjutan yang dapat meningkatkan akurasi, cakupan data, serta dampak nyata terhadap pengelolaan lalu lintas kota. Pengembangan ini tidak hanya mencakup sisi teknis, tetapi juga keterlibatan masyarakat dan integrasi dengan infrastruktur kota yang sudah ada.
 
-### Model AI Tingkat Lanjut:
-- LSTM untuk time-series prediksi jangka panjang
-- Reinforcement Learning untuk pengendalian lampu lalu lintas
+### 🔗 Integrasi Data Real-Time:
+Untuk meningkatkan keakuratan prediksi dan relevansi data, sistem dapat diintegrasikan dengan sumber data nyata secara langsung:
+- **Sensor IoT (Internet of Things):** alat penghitung kendaraan di simpang-simpang strategis
+- **CCTV Kota:** analisis visual otomatis untuk estimasi volume dan insiden
+- **API Cuaca BMKG:** integrasi prakiraan cuaca untuk memengaruhi prediksi kemacetan
+- **Data Navigasi (Waze, Google Maps):** sebagai sumber crowdsourced kondisi lalu lintas
 
-### Fitur Tambahan:
-- Notifikasi pengguna
-- Integrasi dengan Command Center
-- Dashboard untuk Dinas Perhubungan
+### 🧠 Model AI Tingkat Lanjut:
+Model awal menggunakan pendekatan supervised learning. Namun, untuk masa depan:
+- **LSTM (Long Short-Term Memory):** cocok untuk prediksi berbasis deret waktu (time-series) seperti pola mingguan atau musiman
+- **Reinforcement Learning (RL):** untuk sistem pengambilan keputusan adaptif seperti pengaturan dinamis lampu lalu lintas
+- **Hybrid AI + Rule-Based:** menggabungkan kecerdasan buatan dengan logika if-else berbasis aturan lokal (hari pasar, jam buka sekolah, dll)
+
+### 📱 Fitur Tambahan untuk Pengguna:
+- **Notifikasi berbasis lokasi:** peringatan dini kemacetan dikirim ke pengguna berdasarkan lokasi GPS mereka
+- **Aplikasi mobile ringan:** memudahkan masyarakat mendapatkan info jalan dan rute terbaik
+- **Input crowdsourcing:** memungkinkan masyarakat melaporkan kecelakaan, banjir, atau kemacetan via aplikasi
+
+### 🛰️ Integrasi ke Sistem Kota:
+- **Dashboard Komando (Command Center):** tampilan agregat seluruh kota untuk operator Dinas Perhubungan
+- **Deteksi Anomali Otomatis:** sistem akan memberi notifikasi jika terjadi kemacetan tidak biasa
+- **Laporan & Statistik Periodik:** untuk perencanaan tata kota dan pengambilan keputusan jangka panjang
 
 ---
 
